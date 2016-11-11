@@ -12,5 +12,8 @@ $apmpackages = @("install", "angularjs", "atom-beautify", "atom-ternjs", "atom-y
 "script", "symbols-tree-view", "tree-view-filter", "tree-view-finder", "zentabs")
 & apm $apmpackages
 
-$vscodepackages = @("install", "csharp", "python", "debugger-for-chrome", "vscode-icons", "cpptools", "vscode-eslint", "html-snippets", "Go", "beautify", "PowerShell", "tslint", "xml", "vscode-npm-script", "vscode-docker")
-& ext $vscodepackages
+$vscodepackages = @("--install-extension", "ms-vscode.csharp", "donjayamanne.python", "msjsdiag.debugger-for-chrome", "robertohuertasm.vscode-icons", "ms-vscode.cpptools", "dbaeumer.vscode-eslint", "abusaidm.html-snippets", "lukehoban.Go", "HookyQR.beautify", "ms-vscode.PowerShell", "eg2.tslint", "DotJoshJohnson.xml", "eg2.vscode-npm-script", "ms-vscode.vscode-docker")
+
+foreach ($vscodepackage in $vscodepackages) {
+  & code "--install-extension" $vscodepackage
+}
