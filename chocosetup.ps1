@@ -11,3 +11,6 @@ $apmpackages = @("install", "angularjs", "atom-beautify", "atom-ternjs", "atom-y
 "language-cshtml", "language-docker", "language-fsharp", "language-powershell", "language-t4", "linter", "linter-chktex", "linter-csslint", "linter-docker", "linter-gcc", "linter-htmlhint", "linter-jshint", "linter-less", "linter-sass-lint", "linter-tidy", "minimap", "monokai", "omnisharp-atom", "open-conemu-here",`
 "script", "symbols-tree-view", "tree-view-filter", "tree-view-finder", "zentabs")
 & apm $apmpackages
+
+$vscodepackages = @("install", "csharp", "python", "debugger-for-chrome", "vscode-icons", "cpptools", "vscode-eslint", "html-snippets", "Go", "beautify", "PowerShell", "tslint", "xml", "vscode-npm-script", "vscode-docker")
+& ext $vscodepackages
