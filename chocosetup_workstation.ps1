@@ -1,4 +1,4 @@
-iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 
 $programs = @("install", "7zip", "adobereader", "autohotkey",`
 "conemu", "docker", "docker-machine", "docker-compose", "dotpeek", "fiddler", "firefox", "eclipse", "git", "googlechrome", "greenshot",`
