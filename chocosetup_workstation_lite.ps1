@@ -4,7 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 $programs = @("install",`
 # Minimum Development Tools
 "7zip", "docker", "docker-machine", "docker-compose", "firefox",`
-"git", "chromium", "greenshot", "keepass", "notepadplusplus", "nvm.portable", "openvpn",`
+"git", "chromium", "greenshot", "keepass", "notepadplusplus", "nvm.portable", "openvpn", "yarn", `
 "powershell", "putty", "winscp", "dotnet-windowshosting", "sql-server-management-studio", "iis-arr", "urlrewrite" `
 # Additional Nice Too Have Tools
 # "adobereader", "autohotkey", "conemu", "inkscape", "nano", "paint.net", "packer", "pdfcreator",  "python", "sourcetree", "speedcrunch", "vagrant",`
