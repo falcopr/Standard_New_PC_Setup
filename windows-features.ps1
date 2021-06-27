@@ -19,7 +19,7 @@ Disable-Windowsoptionalfeature -Online -FeatureName IIS-Metabase -NoRestart
 Get-Windowsoptionalfeature -Online -featurename WCF-* | Enable-Windowsoptionalfeature -Online -NoRestart -All
 
 # MSMQ
-Get-Windowsoptionalfeature -Online -featurename MSMQ-* | Enable-Windowsoptionalfeature -Online -NoRestart -All
+# Get-Windowsoptionalfeature -Online -featurename MSMQ-* | Enable-Windowsoptionalfeature -Online -NoRestart -All
 
 # Linux Subsystem
 Enable-Windowsoptionalfeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux -All -NoRestart
