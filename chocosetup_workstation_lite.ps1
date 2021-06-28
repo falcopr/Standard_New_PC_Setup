@@ -8,7 +8,7 @@ $programs = @("install",`
 "powershell", "putty", "winscp", "dotnet-windowshosting", "sql-server-management-studio", "iis-arr", "urlrewrite" `
 # Additional Nice Too Have Tools
 # "adobereader", "autohotkey", "conemu", "inkscape", "nano", "paint.net", "packer", "pdfcreator",  "python", "sourcetree", "speedcrunch", "vagrant",`
-# "sysinternals", "vim", "vlc", "visualstudiocode", "wget", "wireshark", "libreoffice", "yed", `
+# "sysinternals", "vim", "vlc", "wget", "wireshark", "libreoffice", "yed", `
 # Test-Run
 # "--noop", `
 "-y")
